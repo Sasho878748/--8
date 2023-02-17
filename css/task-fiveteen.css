@@ -46,6 +46,7 @@ TASK 15 */
 .container-task-fiveteen {
   padding-left: 15px;
   padding-right: 15px;
+  margin: 0 auto;
 }
 .two-adult-text-non {
   font-style: normal;
@@ -112,7 +113,7 @@ TASK 15 */
 }
 
 .two-adult-slider-img {
-  min-width: 194px;
+  max-width: 194px;
   background: #dadada;
   box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
   border-radius: 2px;
@@ -160,7 +161,7 @@ TASK 15 */
 }
 
 .two-adult-item-btn:not(:last-child) {
-     margin-bottom: 16px;
+  margin-bottom: 16px;
 }
 
 .two-adult-link {
@@ -169,7 +170,7 @@ TASK 15 */
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
-  line-height: 20px;
+  line-height: 1, 25;
   letter-spacing: 0.02em;
   color: #f3c653;
 }
@@ -181,7 +182,7 @@ TASK 15 */
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
-  line-height: 20px;
+  line-height: 1, 25;
   letter-spacing: 0.02em;
   color: #f3c653;
 }
@@ -190,4 +191,76 @@ TASK 15 */
   .container-task-fiveteen {
     width: 414px;
   }
+}
+
+@media screen and (min-width: 1024px) {
+  .container-task-fiveteen {
+    width: 960px;
+    position: relative;
+  }
+
+  .one-room-for-two-adult {
+    padding-top: 64px;
+    padding-bottom: 104px;
+  }
+
+  .two-adult-text-non {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 1.16;
+    margin-bottom: 4px;
+  }
+
+  .two-adult-logo {
+    font-size: 64px;
+    line-height: 1.08;
+    letter-spacing: 0.3em;
+    margin-bottom: 62px;
+  }
+
+  .two-adult-title {
+    font-size: 30px;
+    line-height: 1.13;
+    margin-bottom: 16px;
+  }
+
+  .two-adult-text {
+    font-size: 16px;
+    line-height: 1.25;
+    max-width: 439px;
+    max-height: 80px;
+    margin-bottom: 174px;
+  }
+
+  .two-adult-list-img {
+    display: flex;
+    gap: 40px;
+    margin-left: auto;
+  }
+
+  .two-adult-room-img {
+    position: absolute;
+    max-width: 400px;
+    margin: 0;
+    right: 112px;
+    top: -96px;
+  }
+
+  .two-adult-img-btn-box {
+    display: flex;
+    text-align: center;
+    justify-content:space-between;
+  }
+
+  .two-adult-list-btn {
+vertical-align: middle;
+  
+}
+}
+
+@media screen and (min-width: 1023px) and (max-width: 1279px) {
+  .two-adult-list-slider {
+  display: none;
+}
 }
