@@ -243,7 +243,7 @@ TASK 15 */
     position: absolute;
     max-width: 400px;
     margin: 0;
-    right: 112px;
+    right: 80px;
     top: -96px;
   }
 
@@ -254,10 +254,8 @@ TASK 15 */
   }
 
   .two-adult-list-btn {
-vertical-align: middle;
-justify-content: center;
-text-align: center;
-display: block;
+position: relative;
+top: 40px;
   
 }
 }
