@@ -255,6 +255,9 @@ TASK 15 */
 
   .two-adult-list-btn {
 vertical-align: middle;
+justify-content: center;
+text-align: center;
+display: block;
   
 }
 }
