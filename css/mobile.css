@@ -1,0 +1,55 @@
+@media screen and (min-width: 480px) {
+  /* header */
+
+  .container {
+    margin: 0 auto;
+  }
+
+  .header-box {
+    width: 425px;
+  }
+
+  /* -------HERO------- */
+
+  .hero-container {
+    width: 428px;
+  }
+
+  .link-mobail-tel {
+    font-size: 36px;
+  }
+
+  /* -----------VALUES--------- */
+
+  .values-container {
+    width: 426px;
+  }
+
+  /* -----------TEAM--------- */
+
+  .container-team {
+    width: 294px;
+  }
+
+  /* -----------CUSTOMERS--------- */
+
+  .container-customers {
+    width: 426px;
+  }
+
+  /* footer */
+
+  .page-footer {
+    margin: 0 auto;
+  }
+
+  .container-footer {
+    width: 426px;
+  }
+
+  /* -----------PORTFOLIO--------- */
+
+  .container-portfolio {
+    width: 426px;
+  }
+}
