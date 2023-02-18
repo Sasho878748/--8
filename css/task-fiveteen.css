@@ -49,8 +49,8 @@ TASK 15 */
   margin: 0 auto;
 }
 .two-adult-text-non {
-  font-style: normal;
-  font-weight: 400;
+  font-family: 'Times New Roman';
+  font-weight: normal;
   font-size: 20px;
   line-height: 1.15;
   color: #b4b4b4;
@@ -58,8 +58,6 @@ TASK 15 */
 }
 .two-adult-logo {
   font-family: 'Film P3';
-  font-style: normal;
-  font-weight: 700;
   font-size: 40px;
   line-height: 1.08;
   letter-spacing: 0.3em;
@@ -68,8 +66,8 @@ TASK 15 */
   margin-bottom: 32px;
 }
 .two-adult-title {
-  font-style: normal;
-  font-weight: 700;
+  font-family: 'Times New Roman';
+  font-weight: bold;
   font-size: 24px;
   line-height: 1.17;
   letter-spacing: 0.05em;
@@ -78,7 +76,6 @@ TASK 15 */
 }
 .two-adult-text {
   font-family: 'Montserrat';
-  font-style: normal;
   font-weight: 600;
   font-size: 12px;
   line-height: 1.25;
@@ -94,13 +91,7 @@ TASK 15 */
   list-style: none;
   display: flex;
   gap: 16px;
-  margin: 0 auto;
   margin-bottom: 20px;
-}
-.two-adult-item-img {
-}
-
-.two-adult-item-btn {
 }
 
 .two-adult-room-img {
@@ -122,26 +113,23 @@ TASK 15 */
 .two-adult-list-slider {
   list-style: none;
   display: flex;
-  gap: 20px;
+  gap: 32px;
   margin-bottom: 20px;
 }
-.two-adult-item-slider {
-}
+
 .two-adult-left-btn {
   background-color: transparent;
   border: none;
+  padding: 0;
 }
 .two-adult-right-btn {
   background-color: transparent;
   border: none;
-}
-
-.two-adult-btn-box {
+  padding: 0;
 }
 
 .two-adult-list-btn {
   list-style: none;
-
   text-align: center;
   justify-content: center;
 }
@@ -167,7 +155,6 @@ TASK 15 */
 .two-adult-link {
   text-decoration: none;
   font-family: 'Montserrat';
-  font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 1, 25;
@@ -176,15 +163,14 @@ TASK 15 */
 }
 
 .two-adult-btn {
-  background: inherit;
-  border: none;
   font-family: 'Montserrat';
-  font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 1, 25;
   letter-spacing: 0.02em;
   color: #f3c653;
+  background: inherit;
+  border: none;
 }
 
 @media screen and (min-width: 414px) {
@@ -205,8 +191,6 @@ TASK 15 */
   }
 
   .two-adult-text-non {
-    font-style: normal;
-    font-weight: 400;
     font-size: 32px;
     line-height: 1.16;
     margin-bottom: 4px;
@@ -236,7 +220,8 @@ TASK 15 */
   .two-adult-list-img {
     display: flex;
     gap: 40px;
-    margin-left: auto;
+    right: 0;
+    margin-bottom: 0;
   }
 
   .two-adult-room-img {
@@ -248,20 +233,74 @@ TASK 15 */
   }
 
   .two-adult-img-btn-box {
+    position: relative;
+    right: 0;
     display: flex;
     text-align: center;
-    justify-content:space-between;
+    justify-content: space-between;
   }
 
   .two-adult-list-btn {
-position: relative;
-top: 40px;
-  
-}
+    position: absolute;
+    top: 107%;
+    left: 100%;
+    transform: translate(-100%, -150%);
+  }
 }
 
 @media screen and (min-width: 1023px) and (max-width: 1279px) {
   .two-adult-list-slider {
-  display: none;
+    display: none;
+  }
 }
+
+@media screen and (min-width: 1280px) {
+  .container-task-fiveteen {
+    width: 1140px;
+  }
+
+  .one-room-for-two-adult {
+    padding-top: 72px;
+    padding-bottom: 40px;
+  }
+
+  .two-adult-text-non {
+    font-size: 32px;
+    line-height: 1.16;
+  }
+
+  .two-adult-logo {
+    margin-bottom: 72px;
+  }
+
+  .two-adult-title {
+    font-size: 36px;
+    line-height: 1.14;
+    margin-bottom: 24px;
+  }
+
+  .two-adult-text {
+    max-width: 400px;
+    max-height: 83px;
+    margin-bottom: 188px;
+  }
+
+  .two-adult-room-img {
+    max-width: 460px;
+  }
+
+  .two-adult-img-btn-box {
+    margin-bottom: 40px;
+  }
+
+  .two-adult-list-slider {
+    position: absolute;
+    top: 105%;
+    left: 40%;
+    margin-bottom: 0;
+  }
+
+  .two-adult-slider-img {
+    max-width: 294px;
+  }
 }
