@@ -31,11 +31,20 @@
 // getDiscount(137000);
 
 // !------------------
-const fruits = ['apple', 'plum', 'pear', 'orange', 'banana'];
+// const fruits = ['apple', 'plum', 'pear', 'orange', 'banana'];
 
-// Change code below this line
-const firstTwoEls = fruits.slice(0, 2);
-const nonExtremeEls = fruits.slice(1, 3);
-const lastThreeEls = fruits.slice(2, 4);
+// // Change code below this line
+// const firstTwoEls = fruits.slice(0, 2);
+// const nonExtremeEls = fruits.slice(1, 3);
+// const lastThreeEls = fruits.slice(2, 4);
 
-console.log(nonExtremeEls);
+// console.log(nonExtremeEls);
+// !-------------------
+function checkFruit(fruit) {
+  const fruits = ["apple", "plum", "pear", "orange"];
+for (let i = 0; i < fruits.length; i++) {
+    
+   
+if (fruits[i] === fruit)}
+  return; // Change this line
+}
