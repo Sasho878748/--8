@@ -40,11 +40,10 @@
 
 // console.log(nonExtremeEls);
 // !-------------------
-function checkFruit(fruit) {
-  const fruits = ["apple", "plum", "pear", "orange"];
-for (let i = 0; i < fruits.length; i++) {
-    
-   
-if (fruits[i] === fruit)}
-  return; // Change this line
-}
+// function checkFruit(fruit) {
+//   const fruits = ["apple", "plum", "pear", "orange"];
+// for (let i = 0; i < fruits.length; i++) {
+
+// if (fruits[i] === fruit)}
+//   return; // Change this line
+// }
